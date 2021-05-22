@@ -1,0 +1,61 @@
+<style>
+body{
+    padding: 2em;
+}
+.headerContainer{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    background: tomato;
+    font-weight: bold;
+    padding: 30px
+}
+.footerContainer{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    background: lightgreen;
+    font-weight: bold;
+    padding: 20px;
+}
+.mainContainer{
+    display: flex;
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align: center;
+}
+.mainContentItem{
+    text-align: left;
+    background: deepskyblue;
+}
+article{            /* Styling for the three articles*/
+    padding: 10px;
+    margin: 10px;
+    background: aqua;
+}
+
+.sideBarLeftItem {
+    background: gold;
+}
+
+.sideBarRightItem{
+    background: hotpink;
+}
+
+.sideBarItem{
+    flex: 1 0 0;    /* Flex grow | shrink | basis */
+}
+
+.mainContentItem{   /* Will divide the page vertically into left side bar, main content and right side bar*/
+    flex: 3 0px;
+}
+.sideBarLeftItem{   /* Will place side bars and main content according to the required order
+    order: 1;
+}
+.mainContentItem{
+    order: 2;
+}
+.sideBarRightItem{
+    order: 3;
+}
+</style>
