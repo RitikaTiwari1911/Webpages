@@ -1,0 +1,42 @@
+<style>
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: row;
+    margin: 0;
+}
+.navigation{
+    background-color: aquamarine;
+    flex: 1;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    flex: 5;
+    background-color: pink
+    
+}
+.content{
+    display: flex;
+    flex-direction: row;
+}
+.content > article{
+    flex:3;
+    background-color: wheat;
+    min-height: 60vh;
+}
+.content > aside{
+    background-color: grey;
+    flex: 1;
+}
+header,footer{
+    background-color: yellowgreen;
+    height: 14vh;
+}
+header,footer,article,nav,aside{
+    padding: 1em;
+}
+</style>
