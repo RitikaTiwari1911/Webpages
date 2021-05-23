@@ -49,7 +49,7 @@ article{            /* Styling for the three articles*/
 .mainContentItem{   /* Will divide the page vertically into left side bar, main content and right side bar*/
     flex: 3 0px;
 }
-.sideBarLeftItem{   /* Will place side bars and main content according to the required order
+.sideBarLeftItem{   /* Will place side bars and main content according to the required order*/
     order: 1;
 }
 .mainContentItem{
