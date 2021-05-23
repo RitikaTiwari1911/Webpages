@@ -1,0 +1,23 @@
+<style>
+html{
+}
+  .media {
+    display: flex;
+    align-items: flex-start;
+    background: aquamarine;
+    padding: 1em;
+    border-radius: 3px;
+    max-width: 24em;
+  }
+  .media-object {
+    margin-right: 0em;
+    padding: 5px;
+    width: 15vh;
+  }
+  .media-body {
+    flex: 1;
+  }
+  .media-heading {
+    margin: 0 0 .5em;
+  }
+</style>
